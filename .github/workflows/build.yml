@@ -19,7 +19,7 @@ jobs:
       - name: Get next version code
         id: next_ver_code
         run: |
-          TAG=$(git tag --sort=creatordate | tail -1)
+          TAG=$(git tag -l --sort=version:refname | tail -1)
           if [ -z "$TAG" ]; then TAG=0; fi
           echo "NEXT_VER_CODE=$((TAG + 1))" >> $GITHUB_OUTPUT
 
@@ -77,7 +77,9 @@ jobs:
           for OUTPUT in *revanced*.zip; do
             [ "$OUTPUT" = "*revanced*.zip" ] && continue
             ZIP_S=$(unzip -p "$OUTPUT" module.prop)
-            UPDATE_JSON=$(echo "$ZIP_S" | grep updateJson)
+            if ! UPDATE_JSON=$(echo "$ZIP_S" | grep updateJson); then
+              continue
+            fi
             UPDATE_JSON="${UPDATE_JSON##*/}"
             VER=$(echo "$ZIP_S" | grep version=)
             VER="${VER##*=}"
