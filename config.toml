@@ -32,6 +32,7 @@ module-prop-name = "ytmusicrv-magisk"
 arch = "arm64-v8a"
 
 [Music-arm]
+enabled = "false"
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -44,7 +45,7 @@ arch = "arm-v7a"
 
 [Twitter]
 build-mode = "apk"
-excluded-patches = "hide-views-stats"
+excluded-patches = "hide-views-stats monochrome-icon dynamic-color"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
@@ -54,12 +55,14 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Twitch]
+enabled = "false"
 build-mode = "apk"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 merge-integrations = true
 
 [TikTok]
+enabled = "false"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 merge-integrations = true
