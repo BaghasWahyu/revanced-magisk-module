@@ -43,16 +43,16 @@ module-prop-name = "ytmusicrv-arm-magisk"
 arch = "arm-v7a"
 
 [Twitter]
-enabled = false
+enabled = true
 build-mode = "apk"
 excluded-patches = "hide-views-stats"
-version = "auto"
+version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Reddit]
-enabled = false
+enabled = true
 build-mode = "apk"
-version = "auto"
+version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Twitch]
