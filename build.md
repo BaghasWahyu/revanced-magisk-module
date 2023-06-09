@@ -1,5 +1,6 @@
-Twitter: 9.92.0-release.0  
 YouTube: 18.22.36  
+YouTube-Extended: 18.22.36  
+Twitter: 9.92.0-release.0  
 Reddit: 2023.22.0  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
@@ -8,6 +9,17 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 ---
 Changelog:  
+CLI: j-hc/revanced-cli-2.22.0-all.jar  
+Integrations: kazimmt/revanced-integrations-0.109.2.apk  
+Patches: kazimmt/revanced-patches-2.175.4.jar  
+
+- fix: enable-seekbar-tapping fingerprint
+- fix: hide-pip-notification fingerprint
+- bump yt compatibility to 18.20.39
+- bump ytm compatibility to 6.04.51
+
+• Works with ReVanced Manager 1.2.0
+---
 CLI: j-hc/revanced-cli-2.22.0-all.jar  
 Integrations: revanced/revanced-integrations-0.109.0.apk  
 Patches: revanced/revanced-patches-2.175.0.jar  
