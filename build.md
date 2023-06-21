@@ -1,7 +1,7 @@
-YouTube: 18.23.35  
 YouTube-Extended: 18.23.35  
+YouTube: 18.23.35  
 Twitter: 9.93.0-release.1  
-Reddit: 2023.23.0  
+Reddit: 2023.24.0  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
