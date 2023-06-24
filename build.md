@@ -1,12 +1,6 @@
-YouTube: 18.19.35  
-YouTube-Extended: 18.17.43  
-Music (arm64-v8a): 6.07.50  
-Music (arm-v7a): 6.07.50  
-Music-Extended (arm64-v8a): 6.07.50  
-Music-Extended (arm-v7a): 6.07.50  
+YouTube: 18.23.36  
+YouTube-Extended: 18.23.36  
 Twitter: 9.94.0-release.0  
-Twitch: 15.4.1  
-TikTok: 30.1.2  
 Reddit: 2023.24.0  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
@@ -16,32 +10,15 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 ---
 Changelog:  
 CLI: j-hc/revanced-cli-2.22.0-all.jar  
-Integrations: inotia00/revanced-integrations-0.107.10.apk  
-Patches: inotia00/revanced-patches-2.173.10.jar  
+Integrations: kazimmt/revanced-integrations-0.109.2.apk  
+Patches: kazimmt/revanced-patches-2.175.4.jar  
 
-YouTube
-==
-- feat(youtube/default-video-quality): rollback to previous commit
-- feat(youtube/hide-general-ads): added some exceptions
-- feat(youtube/hide-seekbar): updated patch description https://github.com/inotia00/ReVanced_Extended/issues/1013
-- fix(youtube/protobuf-spoof): playing a clip will play the video from the start https://github.com/inotia00/ReVanced_Extended/issues/999
-- fix(youtube/protobuf-spoof): subtitles appear at top when you watch related shorts https://github.com/inotia00/ReVanced_Extended/issues/1011
-- fix(youtube/sponsorblock): not reflected in the patch information
-- feat(youtube/translations): update translation
-`Chinese Simplified`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Russian`, `Spanish`, `Vietnamese`
+- fix: enable-seekbar-tapping fingerprint
+- fix: hide-pip-notification fingerprint
+- bump yt compatibility to 18.20.39
+- bump ytm compatibility to 6.04.51
 
-
-YouTube Music
-==
-- feat(music/hide-new-playlist-button): change patch name https://github.com/inotia00/ReVanced_Extended/issues/983
-- feat(music/translations): update translation
-`Chinese Simplified`
-
-
-※ Compatible ReVanced Manager: v1.1.0
-[Crowdin translation]
-- [European Countries](https://crowdin.com/project/revancedextendedeu)
-- [Other Countries](https://crowdin.com/project/revancedextended)
+• Works with ReVanced Manager 1.2.0
 ---
 CLI: j-hc/revanced-cli-2.22.0-all.jar  
 Integrations: revanced/revanced-integrations-0.111.0.apk  
