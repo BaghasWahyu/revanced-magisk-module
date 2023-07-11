@@ -1,5 +1,5 @@
-YouTube-Extended: 18.25.40  
 YouTube: 18.25.40  
+YouTube-Extended: 18.25.40  
 Reddit: 2023.26.0  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
@@ -15,7 +15,7 @@ Patches: inotia00/revanced-patches-2.184.3.jar
 YouTube
 ==
 - feat(youtube): remove `hide-live-chat-button` patch (location of the live chat button has been moved even in the old layout)
-- feat(youtube/hide-button-container): changed to expose 'Experimental Flags' on YouTube v18.20.39 https://github.com/inotia00/ReVanced_Extended/issues/1103
+- feat(youtube/hide-button-container): changed to expose `Experimental Flags` on YouTube v18.20.39 https://github.com/inotia00/ReVanced_Extended/issues/1103
 - feat(youtube/spoof-player-parameter): changed to selectable option for MicroG (ROOT) users https://github.com/inotia00/ReVanced_Extended/issues/1110
 - fix(youtube/hide-filmstrip-overlay): patch is broken on YouTube v18.20.39
 - fix(youtube/hide-feed-flyout-panel): unintended menus are hidden https://github.com/inotia00/ReVanced_Extended/issues/1129
