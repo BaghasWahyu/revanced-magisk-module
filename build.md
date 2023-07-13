@@ -1,4 +1,3 @@
-YouTube: 18.25.40  
 YouTube-Extended: 18.25.40  
 Reddit: 2023.27.0  
 
@@ -44,13 +43,4 @@ Etc
 [Crowdin translation]
 - [European Countries](https://crowdin.com/project/revancedextendedeu)
 - [Other Countries](https://crowdin.com/project/revancedextended)
----
-CLI: j-hc/revanced-cli-2.23.0-all.jar  
-Integrations: revanced/revanced-integrations-0.112.0.apk  
-Patches: revanced/revanced-patches-2.184.0.jar  
-
-### [2.184.0](https://github.com/revanced/revanced-patches/compare/v2.183.1...v2.184.0) (2023-07-11)
-### Features
-* **youtube/custom-branding:** update logo ([e2187f3](https://github.com/revanced/revanced-patches/commit/e2187f33ff82fce40592517aef31cb191b42987c))
-
 ---  
