@@ -46,6 +46,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "latest"
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 
 [Reddit-Extended]
 version = "latest"
@@ -54,8 +55,10 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Reddit]
 version = "latest"
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
