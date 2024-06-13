@@ -1,7 +1,7 @@
+Music: 7.03.52  
 YouTube: 19.16.39  
 Music-Extended: 7.05.52  
 YouTube-Extended: 19.21.40  
-Music: 7.03.52  
 Twitter: 10.45.0-release.0  
 Reddit-Extended: 2024.17.0  
 Reddit: 2024.17.0  
